@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.cont {
+    width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+}
+.connect {
+    width: 800px;
+    height: 500px;
+    margin-left: 15%;
+    position: fixed;
+    font-size: 24px;
+    color:rgba(118, 121, 120, 0.685);
+    font-family: "Microsoft YaHei";
+    background: url(../images/img23.jpg) no-repeat;
+    
+}
+.connect_1 {
+    margin-left: 12%;
+    margin-top: 12%;
+    position: fixed;
+}
+.special {
+    display: inline;
+    font-size: 14px;
+}
+.special1 {
+    font-size: 16px;
+    color:rgb(226, 212, 135);
+    text-indent: 2em;
+    font-weight: normal;
+}
+
+.connect_2 {
+    width: 420px;
+    height: 200px;
+    font-size: 14px;
+    margin-left: 20%;
+    margin-top: 28%;
+    /* 设置fixed布局之前，首先要将具体的位置说明 */
+    position: fixed;
+    text-align: center;
+    letter-spacing: 2px;
+}
+li {
+    /* 去除列表钱的标记 */
+    list-style: none;
+    /* 更改li为行内元素，是内容横向排布 */
+    display: inline;
+}
+
+a:link {
+    color:rgba(118, 121, 120, 0.685);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(12, 12, 12);
+    /* color: rgba(190, 160, 224, 0.904); */
+}
+
+a:hover {
+    color:rgba(230, 202, 44, 0.849);
+}
+a:active {
+    color: rgba(241, 156, 129, 0.904);  
+}
+

@@ -1,0 +1,191 @@
+/* 整个页面主要采用了凝胶布局（相对父级元素居中，大小固定）+表单布局 */
+body {
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+    font-family: "Microsoft YaHei";
+}
+/* 标题栏：主要利用了浮动布局 */
+#header {
+    height: 50px;
+    /* 背景图片，url链接背景图片路径 */
+    background: url(../images/img1.png);
+    font-size: 24px;
+    /* 字间距 */
+    letter-spacing: 2px;
+    color: rgba(9, 3, 43, 0.849);
+    border-top: rgb(105, 103, 219) 2px dotted;
+}
+.img_location {
+    /* 图片使用左浮动布局 */
+    float: left;   
+}
+.title_location {
+    float: left;
+    margin-top: 10px;
+    margin-left: 60px;
+    /* 采用绝对定位 */
+    position:absolute;
+}
+.img_Wel {
+    /* 设置Wel图片做外边距像素为650px */
+    margin-left: 650px;
+    /* 图片采用浮动布局 */
+    float: left;
+    /* 设置图片上外边距像素为10px */
+    margin-top: 10px; 
+    position:absolute;
+}
+.img_You {
+    float: left;
+    margin-top: 17px;
+    margin-left: 800px;
+    position:absolute;
+}
+.img_Com {
+    float: left;
+    margin-top: 14px;
+    margin-left: 900px;
+    position:absolute;
+}
+.main_title {
+    /* 将标题转化为行内元素 */
+    display: inline;
+    /* 设置字体大小，覆盖原有标题样式 */
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    /* 设置标题的加粗程度，在此normal表示正常 */
+    font-weight: normal;
+    /* 设置字体颜色 */
+    color: rgba(9, 3, 43, 0.952);
+}
+#nav {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(223, 215, 245, 0.822);
+    padding-top: 1px;
+    /* 底外边框设置 */
+    border-bottom:rgb(36, 5, 65) 1px solid;
+}
+.nav_main {
+    width: 1000px;
+    height: 40px;
+    background-color: rgba(127, 109, 206, 0.808);
+    margin: 0px auto;
+    text-align: center;
+    /* 设置圆角 */
+    border-radius: 10px;
+}
+.myInforMation {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.mainInformation {
+    display: inline;
+    letter-spacing: 2px;
+    line-height: 40px;
+    padding: 0px 40px 0px 40px;
+    /* 内容居中显示 */
+    text-align: center;
+}
+.item{
+    display: block;
+    width: 100%;
+}
+
+
+.comment_title {
+    font-weight: normal;
+    font-size: 14px;
+    color: rgb(50, 104, 104);
+    margin-top: 20px;
+    text-align: center;
+}
+.visitor {
+    width: 100%;
+    height: 400px;
+    margin: 0px auto;
+}
+.comment {
+    text-align: center;
+}
+
+.visitorQuestion {
+    width: 590px;
+    height: 200px;
+    border: silver 2px solid;
+    /* 边框设置圆角 */
+    border-radius: 15px;
+    margin-bottom: 20px;
+    /* 用户填写内容自动首行缩进2em */
+    text-indent: 2em;
+    font-size: 16px;
+    color:rgb(13, 77, 114);
+    /* 利用盒子模型设置内容排布 */
+    padding: 15px 40px 10px 40px;
+}
+.visitorClick {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.mainButton {
+    width: 60px;
+    height: 30px;
+    background-color: rgba(97, 133, 133, 0.527);
+    border: silver 1px solid;
+    /* 表单按钮设置圆角 */
+    border-radius: 10px;
+    font-size: 14px;
+    /* 字体加粗 */
+    font-weight: bold;
+    color:rgba(13, 6, 49, 0.952);
+}
+ #footer {
+     /* bottom设置为0，使得页脚区固定在页面底部 */
+     bottom: 0;
+     height: 30px;
+     /* 设置页脚区背景颜色 */
+     background-color: rgba(54, 84, 92, 0.527);
+     /* 设置左上边框圆角 */
+     border-top-left-radius: 15px;
+}
+.footer_1 {
+    /* 页脚区内容部分采用浮动布局 */
+    float:right;
+    margin: 0px;
+    margin-right: 15%;
+    padding: 0px;
+    margin-top: 5px;
+    font-size: 16px;
+    /* 字间距设置为5px */
+    letter-spacing: 5px;
+    color:rgb(69, 65, 104);
+}
+/* 下述对于利用伪类对链接a的各项设置，顺序不可改变，否则浏览器无法渲染 */
+a:link {
+    /* 原始链接背景颜色显示 */
+    color: rgb(252, 252, 252);
+    /* 去除链接下画线 */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 9px 10px 10px 9px;
+}
+/* 访问后链接背景颜色显示 */
+a:visited {
+    color: rgb(252, 252, 252);
+}
+/* 鼠标放置链接上背景颜色显示 */
+a:hover {
+    background-color: rgb(118, 121, 120);
+}
+/* 点击链接，背景颜色显示 */
+a:active {
+    background-color: rgb(128, 133, 132);
+}

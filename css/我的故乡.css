@@ -1,0 +1,51 @@
+body {
+    /* 字体设置，给定多种样式，浏览器依次选择自己能选软的字体 */
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#header {
+    height: 60px;
+    background: url(../images/img36.jpg);
+    /* 设置边框样式 */
+    border-bottom: 2px dotted rgb(117, 82, 29);
+}
+.poem {
+    margin-top: 10px;
+    /* 宽度像素设置为660px,高度像素设置为1250px */
+    width: 660px;
+    height: 1250px;
+    float: left;
+    text-align: center;
+    /* 设置背景样式，url指明背景图片路径，no-repeat图片不重复 */
+    background: url(../images/img37.png) no-repeat;
+}
+.poem_1 {
+    font-size: 24px;
+    letter-spacing: 8px;
+    /* 设置内容行间距像素为50px */
+    line-height: 50px;
+    
+}
+.img_point {
+    float: right;
+}
+.bgm {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Wel {
+    float: right;
+}
+a:link {
+    text-decoration: none;
+    color: rgb(161, 119, 65);
+}
+a:visited {
+    color: rgb(126, 89, 41);
+}
+a:hover {
+    color: tan;
+}
+a:active {
+    color:rgb(221, 145, 30);
+}

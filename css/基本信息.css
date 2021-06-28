@@ -1,0 +1,92 @@
+/* 副页面2主要采用了凝胶布局和fixed布局 */
+body {
+    width: 100%;
+    font-family:"Microsoft YaHei";
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    height: 60px;
+    background: url(../images/img37.jpg);
+    text-align: center;
+    font-size: 36px;
+    color: rgb(11, 74, 85);
+    border-bottom: 2px solid rgb(30, 121, 156);;
+}
+.main {
+    width: 1000px;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+.cont {
+      /* 设置表格的边框是否被合并为一个单一的边框 */
+    border-collapse: collapse;
+    font-size: 12px;
+    color: grey;
+    padding: 0px;
+    /* 设置表格单元格之间无间隙 */
+    border-spacing: 0;
+    margin: 0px auto;
+}
+.cont1 {
+    background-color: rgba(127, 204, 240, 0.979);
+    height: 16px;
+}
+
+.cont_1 {
+    width: 120px;
+    height: 30px;
+    border: 2px solid rgba(228, 235, 250, 0.979);
+    text-align: center;
+    border-collapse: collapse;
+}
+.main2 {
+    /* 整个存放表单的div采用凝胶布局 */
+    width: 650px;
+    height: 400px;
+    margin: 0px auto;
+     /* 表单内容字体居左 */
+    margin-top: 30px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form_1 {
+    width: 100%;
+    /* 表单内容区采用左浮动的布局 */
+    float: left;
+}
+.try {
+    font-weight: normal;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(12, 50, 71);
+    text-align: center;
+}
+.main2_1 {
+    font-size: 14px;
+    color: grey;
+    display: inline;
+}
+.special {
+    font-size: 14px;
+    color: rgb(11, 52, 78);
+    font-weight: normal;
+}
+.click {
+    width: 200px;
+    height: 100px;
+    margin-right: 500px;
+    position: fixed;
+    font-size: 24px;
+    color: rgb(12, 68, 85);
+    border-radius: 25px;
+    background-color: rgb(182, 243, 243);
+    letter-spacing: 6px;
+    font-weight: 600;
+    border: 2px solid rgb(9, 46, 61);
+}
+.final {
+    height: 40%;
+    width: 100%;
+    background-color: rgb(14, 77, 77);
+}
