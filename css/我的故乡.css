@@ -8,6 +8,14 @@ body {
     /* 设置边框样式 */
     border-bottom: 2px dotted rgb(117, 82, 29);
 }
+.substract {
+    width: 1200px;
+    margin: 0 auto;
+    /* 设置段落首行缩进 */
+    text-indent: 2em;
+    color: rgb(110, 79, 41);
+    line-height: 24px;
+}
 .poem {
     margin-top: 10px;
     /* 宽度像素设置为660px,高度像素设置为1250px */
@@ -35,6 +43,47 @@ body {
 }
 .Wel {
     float: right;
+}
+#footer {
+    /* bottom设置为0，使得页脚区固定在页面底部 */
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+    /* 设置页脚区背景颜色 */
+    background-color: rgba(206, 203, 202, 0.527);
+    /* 设置左上边框圆角 */
+    border-top-left-radius: 15px;
+    float: right;
+    margin-top: 20px;
+}
+.footer1 {
+   width: 70%;
+   float: left;
+}
+.footer1_1 {
+   /* 内容居中显示 */
+   text-align: center;
+   /* 调整字体大小；如当前对行内文本的字体尺寸未被人为设置，则相对于浏览器的默认字体尺寸。 */
+   font-size: 0.8em;
+   /* 设置文本颜色 */
+   color: rgb(137, 139, 141);
+   /* 设置字间距为5px */
+   letter-spacing: 5px;
+   /* 设置行间距为24px */
+   line-height: 24px;
+   padding-top: 5px;
+}
+.footer2 {
+   width: 30%;
+   float: left;
+}
+.footer2_1 {
+   margin-top: 60px;
+   margin-right: 10px;
+   font-size: 16px;
+   /* 字间距设置为5px */
+   letter-spacing: 5px;
+   color: rgb(137, 139, 141);
 }
 a:link {
     text-decoration: none;

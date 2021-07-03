@@ -12,14 +12,15 @@ body {
 }
 
 .cont1 {
-    width: 1000px;
+    width: 100%;
     margin: 0px auto;
-    margin-bottom: 50px;
+    background-color: rgb(216, 229, 230);
+    padding-bottom: 50px;
+    border-bottom: 3px solid rgb(169, 170, 173);
 }
 .cont1_1 {
     width: 100%;
     height: 300px;
-    /* background: url(../images/img16.png) no-repeat; */
 }
 /* 轮播图动画制作 */
 @keyframes marginLeft{
@@ -83,6 +84,7 @@ body {
 }
 .contain_title {
     margin-top: 5%;
+    margin-bottom: 2%;
     letter-spacing: 10px;
     font-size: 16px;
 }
@@ -100,11 +102,8 @@ body {
     margin: 0px auto;
     text-align: center;
     color: rgb(43, 77, 72);
-}
-.decorate {
-    float: right;
-    margin-right: 20%;
-    margin-top: 10%;
+    background-color: rgb(220, 229, 230);
+    padding-top: 35px;
 }
 table {
     border-collapse: collapse;
@@ -217,10 +216,41 @@ a:hover {
     color: lightcoral;
     background-image: url(../images/img11.jpg);
 }
-.fianl {
-    height: 45px;
-    background-color: rgb(105, 107, 107);
-    border: 2px solid rgb(70, 68, 68);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+#footer {
+    /* bottom设置为0，使得页脚区固定在页面底部 */
+    bottom: 0;
+    height: 100px;
+    /* 设置页脚区背景颜色 */
+    background-color: rgba(101, 107, 109, 0.527);
+    /* 设置左上边框圆角 */
+    border-top-left-radius: 15px;
+}
+.footer1 {
+   width: 70%;
+   float: left;
+}
+.footer1_1 {
+   /* 内容居中显示 */
+   text-align: center;
+   /* 调整字体大小；如当前对行内文本的字体尺寸未被人为设置，则相对于浏览器的默认字体尺寸。 */
+   font-size: 0.8em;
+   /* 设置文本颜色 */
+   color: rgb(78, 79, 80);
+   /* 设置字间距为5px */
+   letter-spacing: 5px;
+   /* 设置行间距为24px */
+   line-height: 24px;
+   padding-top: 5px;
+}
+.footer2 {
+   width: 30%;
+   float: left;
+}
+.footer2_1 {
+   margin-top: 60px;
+   margin-right: 10px;
+   font-size: 16px;
+   /* 字间距设置为5px */
+   letter-spacing: 5px;
+   color: rgb(66, 67, 68);
 }

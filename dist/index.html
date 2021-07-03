@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>主页面1</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <title>主页面</title>
+    <link rel="stylesheet" href="./css/主页面.css">
 </head>
 <body>
-    <!-- 标题栏 -->
+    <!-- 页眉区 -->
     <div id="header">
         <div class="img_location">
             <img src="./images/img22.jpg" alt="我是小猪佩奇">
@@ -16,6 +16,7 @@
         <div class="title_location">
             "小猪佩奇"<h1 class="main_title">的</h1>个人<h1 class="main_title">网站</h1>
         </div> 
+        <!--页眉区通过如下三个图片显示主标题内容  -->
         <div class="img_Wel">
             <img src="./images/img26.png" alt="Welcome your coming">
         </div>
@@ -29,6 +30,7 @@
     <!-- 导航栏 -->
     <div id="nav">
         <div class="nav_main">
+            <!-- 利用无序列表，将Li转化为行内元素，使得内容横向排布 -->
             <ul class="myInformation">
                 <li class="mainInformation">我的</li>
                 <li class="mainInformation">
@@ -41,13 +43,14 @@
     </div>
     <!-- 表单区 -->
     <div class="visitor">
-        <form action="./index_4.html">
+        <form action="./结束页.html">
             <h2 class="comment_title">您对本人的个人网站有什么建议吗(*^_^*)，欢迎在如下文本框内留言。点击关注可以便可与小猪佩奇交个朋友哦！</h2>
             <div class="comment">
                 <textarea class="visitorQuestion"></textarea>
             </div>
             <div class="visitorClick">
                 <img src="./images/img24.jpg" alt="attation">
+                <!-- 通过&nbsp标识符，规范页面，&nbsp浏览器将其渲染成空格 -->
                 <button class="mainButton">关&nbsp注</button>
                 <img src="./images/img24.jpg" alt="attation">
             </div>
@@ -55,7 +58,14 @@
     </div>
     <!-- 页脚区 --> 
     <div id="footer">
-        <p class="footer_1">我的座右铭：凡事预则立,不预则废!</p>
+        <div class="footer1">
+            <p class="footer1_1">此网页为个人私有<br>
+                未经本人允许，请勿引用转载<br>
+                联系方式：个人邮箱</p>
+        </div>
+        <div class="footer2">
+                <p class="footer2_1">我的座右铭：凡事预则立,不预则废！</p>
+        </div> 
     </div>
 </body>
 </html>
